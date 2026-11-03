@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Outfit', 'PingFang SC', 'Noto Sans SC', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+  --font-serif: 'Fraunces', 'PingFang SC', 'Songti SC', 'Noto Sans SC', 'Microsoft YaHei', 'WenQuanYi Micro Hei', serif;
+  --font-mono: 'IBM Plex Mono', 'WenQuanYi Micro Hei Mono', ui-monospace, monospace;
+  --color-canvas: #10141b;
+  --color-panel: #171d27;
+  --color-panel-2: #202836;
+  --color-line: #313a4a;
+  --color-ink: #f4f0e6;
+  --color-muted: #b4ab9e;
+  --color-faint: #857d72;
+  --color-brass: #e4b45c;
+  --color-brass-2: #f0d7a4;
+  --color-good: #9dcfb2;
+  --color-bad: #ef9b8c;
+  --color-sea: #9ec3dc;
+}
+
+html {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(1000px 480px at 80% -10%, rgba(228, 180, 92, 0.16), transparent 52%),
+    radial-gradient(700px 380px at -10% 10%, rgba(158, 195, 220, 0.08), transparent 46%),
+    var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: rgba(228, 180, 92, 0.35);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

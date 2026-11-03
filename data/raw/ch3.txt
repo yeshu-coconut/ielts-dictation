@@ -1,0 +1,566 @@
+## 3.2	名词预热	先过一遍听力里反复出现的名词
+accommodation	住宿
+assignment	作业；任务
+atmosphere	气氛；大气层
+audience	观众；听众
+benefit	益处
+budget	预算
+campaign	宣传活动；运动
+candidate	考生；候选人
+career	职业生涯
+catalogue	目录	catalog
+category	类别
+certificate	证书
+challenge	挑战
+characteristic	特征
+colleague	同事
+committee	委员会
+community	社区；群体
+conference	研讨会
+conflict	冲突
+consequence	后果
+consultant	顾问
+context	背景；语境
+contract	合同
+contribution	贡献
+controversy	争议
+criterion	标准（单数）
+currency	货币
+curriculum	课程设置
+customer	顾客
+deadline	截止日期
+decade	十年
+decision	决定
+definition	定义
+department	系；部门
+description	描述
+destination	目的地
+device	装置
+diagram	示意图
+discipline	学科；纪律
+discount	折扣
+discussion	讨论
+distribution	分布
+document	文件
+economy	经济
+edition	版本
+effect	影响
+effort	努力
+emergency	紧急情况
+emphasis	强调
+employee	雇员
+employer	雇主
+environment	环境
+equipment	设备（不可数）
+evidence	证据
+experiment	实验
+expert	专家
+explanation	解释
+facility	设施
+factor	因素
+feature	特点
+
+## 3.3-1	国家与城市	地名拼写，按英式读音听
+Australia	澳大利亚
+Canada	加拿大
+New Zealand	新西兰
+Ireland	爱尔兰
+Scotland	苏格兰
+Wales	威尔士
+England	英格兰
+Britain	不列颠；英国
+France	法国
+Germany	德国
+Italy	意大利
+Spain	西班牙
+Portugal	葡萄牙
+Greece	希腊
+Netherlands	荷兰
+Belgium	比利时
+Sweden	瑞典
+Norway	挪威
+Denmark	丹麦
+Finland	芬兰
+Switzerland	瑞士
+Austria	奥地利
+Poland	波兰
+Egypt	埃及
+Kenya	肯尼亚
+Nigeria	尼日利亚
+India	印度
+Pakistan	巴基斯坦
+Bangladesh	孟加拉国
+Malaysia	马来西亚
+Singapore	新加坡
+Indonesia	印度尼西亚
+Thailand	泰国
+Vietnam	越南
+Japan	日本
+Korea	韩国
+Brazil	巴西
+Argentina	阿根廷
+Chile	智利
+Mexico	墨西哥
+Turkey	土耳其
+Morocco	摩洛哥
+London	伦敦
+Manchester	曼彻斯特
+Birmingham	伯明翰
+Leicester	莱斯特
+Gloucester	格洛斯特
+Worcester	伍斯特
+Edinburgh	爱丁堡
+Glasgow	格拉斯哥
+Cardiff	加的夫
+Belfast	贝尔法斯特
+Dublin	都柏林
+Cambridge	剑桥
+Oxford	牛津
+Brighton	布莱顿
+Bristol	布里斯托
+Liverpool	利物浦
+Canterbury	坎特伯雷
+Greenwich	格林尼治
+Sydney	悉尼
+Melbourne	墨尔本
+Auckland	奥克兰
+Wellington	惠灵顿
+Toronto	多伦多
+Vancouver	温哥华
+Cape Town	开普敦
+
+## 3.3-2	姓氏与称谓	第一节常考的姓氏拼写
+Smith	姓氏，史密斯
+Johnson	姓氏，约翰逊
+Williams	姓氏，威廉斯
+Brown	姓氏，布朗
+Jones	姓氏，琼斯
+Taylor	姓氏，泰勒
+Wilson	姓氏，威尔逊
+Davies	姓氏，戴维斯
+Evans	姓氏，埃文斯
+Thomas	姓氏，托马斯
+Roberts	姓氏，罗伯茨
+Walker	姓氏，沃克
+Wright	姓氏，赖特
+Thompson	姓氏，汤普森
+White	姓氏，怀特
+Harris	姓氏，哈里斯
+Clark	姓氏，克拉克
+Lewis	姓氏，刘易斯
+Robinson	姓氏，罗宾逊
+Mitchell	姓氏，米切尔
+Campbell	姓氏，坎贝尔
+Anderson	姓氏，安德森
+Stewart	姓氏，斯图尔特
+Murray	姓氏，默里
+Graham	姓氏，格雷厄姆
+Watson	姓氏，沃森
+Brooks	姓氏，布鲁克斯
+Kelly	姓氏，凯利
+Murphy	姓氏，墨菲
+Sullivan	姓氏，沙利文
+Cooper	姓氏，库珀
+Richardson	姓氏，理查森
+Howard	姓氏，霍华德
+Peterson	姓氏，彼得森
+Bennett	姓氏，贝内特
+Parker	姓氏，帕克
+Collins	姓氏，科林斯
+Edwards	姓氏，爱德华兹
+Morris	姓氏，莫里斯
+Rogers	姓氏，罗杰斯
+Foster	姓氏，福斯特
+Powell	姓氏，鲍威尔
+Hughes	姓氏，休斯
+Russell	姓氏，拉塞尔
+Griffin	姓氏，格里芬
+professor	教授
+doctor	医生；博士
+manager	经理
+receptionist	接待员
+librarian	图书馆员
+
+## 3.3-3	校园与公共设施	听力地图题和校园场景里的地点
+library	图书馆
+laboratory	实验室
+reception	前台
+dormitory	宿舍
+corridor	走廊
+entrance	入口
+basement	地下室
+auditorium	礼堂
+gymnasium	体育馆
+stadium	体育场
+gallery	画廊
+museum	博物馆
+clinic	诊所
+pharmacy	药房
+bookshop	书店
+canteen	食堂
+courtyard	庭院
+fountain	喷泉
+playground	操场
+footpath	人行小径
+roundabout	环岛
+crossroads	十字路口
+pavement	人行道（英式）
+suburb	郊区
+harbour	港口	harbor
+theatre	剧院	theater
+lift	电梯（英式）	elevator
+flat	公寓（英式）	apartment
+car park	停车场
+sports centre	体育中心	sports center
+swimming pool	游泳池
+common room	公共休息室
+notice board	布告栏
+lost property	失物招领
+security office	保卫处
+main entrance	正门
+ground floor	底层（英式一楼）
+first floor	二楼（英式）
+student union	学生会
+lecture theatre	阶梯教室	lecture theater
+seminar room	研讨室
+science block	理科楼
+arts building	文科楼
+administration	行政楼；管理部门
+bicycle shed	自行车棚
+stationery	文具
+refectory	学院餐厅
+porter	门房
+caretaker	看门人
+premises	场所
+venue	举办场地
+
+## 3.3-4	学术与课程	论文、课程和图书馆场景
+lecture	讲座
+seminar	研讨课
+tutorial	辅导课
+module	课程模块
+syllabus	教学大纲
+essay	论文；短文
+dissertation	学位论文
+thesis	毕业论文
+plagiarism	抄袭
+bibliography	参考文献
+reference	参考；推荐人
+abstract	摘要
+appendix	附录
+hypothesis	假设
+analysis	分析
+phenomenon	现象
+questionnaire	问卷
+respondent	受访者
+sample	样本
+statistics	统计学；统计数据
+percentage	百分比
+proportion	比例
+majority	多数
+minority	少数
+scholarship	奖学金
+tuition	学费
+bachelor	学士
+undergraduate	本科生
+postgraduate	研究生
+lecturer	讲师
+tutor	导师
+fresher	大学新生（英式）
+semester	学期
+timetable	课程表
+attendance	出勤
+assessment	评估
+feedback	反馈
+draft	草稿
+deadline extension	延期申请
+workshop	工作坊
+fieldwork	实地考察
+placement	实习安排
+internship	实习
+presentation	展示；口头报告
+handout	讲义
+journal	学术期刊
+article	文章
+chapter	章节
+footnote	脚注
+keyword	关键词
+theory	理论
+method	方法
+data	数据
+result	结果
+conclusion	结论
+
+## 3.3-5	自然与环境	地理、天气和生态名词
+climate	气候
+weather	天气
+temperature	温度
+forecast	预报
+drought	干旱
+flood	洪水
+hurricane	飓风
+cyclone	气旋
+monsoon	季风
+earthquake	地震
+volcano	火山
+tsunami	海啸
+glacier	冰川
+valley	山谷
+plateau	高原
+peninsula	半岛
+desert	沙漠
+oasis	绿洲
+reef	礁
+coral	珊瑚
+wetland	湿地
+estuary	河口
+island	岛
+coast	海岸
+tide	潮汐
+ocean current	洋流
+latitude	纬度
+longitude	经度
+hemisphere	半球
+erosion	侵蚀
+sediment	沉积物
+fossil	化石
+species	物种
+habitat	栖息地
+predator	捕食者
+prey	猎物
+biodiversity	生物多样性
+deforestation	滥伐森林
+pollution	污染
+emission	排放
+conservation	保护
+recycling	回收
+renewable resource	可再生资源
+resource	资源
+mineral	矿物
+agriculture	农业
+irrigation	灌溉
+pesticide	杀虫剂
+harvest	收获
+wildlife	野生动物
+landscape	地貌；风景
+scenery	风景（不可数）
+
+## 3.3-6	交通与出行	旅行、票务和道路
+itinerary	行程
+brochure	宣传册
+souvenir	纪念品
+luggage	行李（不可数）
+aisle	过道
+excursion	短途旅行
+destination guide	目的地指南
+passport	护照
+visa	签证
+customs	海关
+terminal	航站楼
+runway	跑道
+departure	出发
+arrival	到达
+boarding pass	登机牌
+check-in	办理登机；入住
+platform	站台
+carriage	车厢（英式）
+timetable board	时刻牌
+motorway	高速公路（英式）	highway
+petrol	汽油（英式）	gasoline
+round trip	往返行程
+single ticket	单程票（英式）
+return ticket	往返票（英式）
+fare	车费；票价
+delay	延误
+cancellation	取消
+reservation	预订
+vacancy	空位；空房
+hostel	旅社
+cabin	客舱；小木屋
+deck	甲板
+harbour master	港务长	harbor master
+ferry	渡轮
+coach	长途客车（英式）
+tram	有轨电车
+subway	地铁；地下通道
+junction	路口；枢纽
+diversion	绕行
+congestion	拥堵
+pedestrian	行人
+cyclist	骑行者
+helmet	头盔
+seatbelt	安全带
+vehicle	车辆
+engine	发动机
+brake	刹车
+tyre	轮胎（英式）	tire
+garage	车库；修车行
+mechanic	机修工
+insurance	保险
+licence	许可证（英式名词）	license
+
+## 3.3-7	饮食与健康	餐厅、食物和看病
+restaurant	餐馆
+cafe	咖啡馆
+menu	菜单
+receipt	收据
+bill	账单（英式）
+tip	小费
+vegetarian	素食者
+vegan	严格素食者
+ingredient	原料
+recipe	食谱
+portion	一份
+appetite	食欲
+allergy	过敏
+nutrition	营养
+protein	蛋白质
+vitamin	维生素
+carbohydrate	碳水化合物
+calorie	卡路里
+diet	饮食
+canteen tray	餐盘
+cutlery	餐具（英式）
+napkin	餐巾
+dessert	甜点
+beverage	饮料
+mineral water	矿泉水
+appointment	预约
+symptom	症状
+diagnosis	诊断
+treatment	治疗
+prescription	处方
+pharmacy counter	药房柜台
+tablet	药片
+capsule	胶囊
+ointment	药膏
+bandage	绷带
+injury	损伤
+fracture	骨折
+fever	发烧
+headache	头痛
+cough	咳嗽
+allergy test	过敏测试
+surgery	手术；诊所（英式）
+inpatient	住院病人
+nurse	护士
+dentist	牙医
+optician	验光师
+vaccination	接种
+infection	感染
+recovery	康复
+exercise	锻炼
+pulse	脉搏
+high blood pressure	高血压
+
+## 3.3-8	住房与日常用品	租房、家居和日常物件
+landlord	房东
+tenant	租客
+deposit	押金；存款
+rent	租金
+mortgage	抵押贷款
+utility	公用事业（水电等）
+electricity	电
+heating	供暖
+insulation	隔热；绝缘
+maintenance	维修
+guarantee	保修；保证
+furniture	家具（不可数）
+cupboard	橱柜
+wardrobe	衣柜
+drawer	抽屉
+mattress	床垫
+pillow	枕头
+blanket	毯子
+curtain	窗帘
+carpet	地毯
+shelf	架子
+mirror	镜子
+kettle	水壶（英式）
+toaster	烤面包机
+fridge	冰箱
+microwave	微波炉
+vacuum	真空吸尘器
+iron	熨斗
+socket	插座
+switch	开关
+bulb	灯泡
+battery	电池
+charger	充电器
+adapter	适配器
+towel	毛巾
+laundry	待洗衣物；洗衣房
+detergent	洗涤剂
+rubbish	垃圾（英式）	garbage
+bin	垃圾桶
+recycling bin	回收桶
+neighbour	邻居	neighbor
+suburb house	郊区住宅
+balcony	阳台
+garage door	车库门
+doorbell	门铃
+key card	门卡
+postcode	邮政编码（英式）	postal code
+envelope	信封
+parcel	包裹（英式）
+stamp	邮票
+queue	队列（英式）
+
+## 3.3-9	工作、法律与社会	职场、机构和公共事务
+profession	职业
+workforce	劳动力
+vacancy notice	空缺启事
+applicant	申请人
+interview	面试
+reference letter	推荐信
+salary	薪水
+wage	工资（常按周或小时）
+bonus	奖金
+pension	养老金
+promotion	晋升
+resignation	辞职
+redundancy	裁员（英式）
+trade union	工会
+colleague network	同事网络
+headquarters	总部
+branch	分支；分行
+invoice	发票
+accountant	会计
+lawyer	律师
+solicitor	事务律师（英式）
+barrister	出庭律师（英式）
+court	法庭
+judge	法官
+witness	证人
+jury	陪审团
+fine	罚款
+penalty	处罚
+regulation	规章
+legislation	立法
+policy	政策
+citizen	公民
+election	选举
+council	市政会；理事会
+mayor	市长
+volunteer	志愿者
+charity	慈善机构
+donation	捐赠
+campaign leaflet	宣传单
+census	人口普查
+inequality	不平等
+infrastructure	基础设施
+community centre	社区中心	community center
+membership	会员身份
+subscription	订阅；会费
+newsletter	通讯
+advertisement	广告
+slogan	标语
+reputation	声誉
+complaint	投诉
+refund	退款
+enquiry	询问（英式）	inquiry
+agreement	协议
+signature	签名
+photocopy	复印件
+identification	身份证明
+application form	申请表

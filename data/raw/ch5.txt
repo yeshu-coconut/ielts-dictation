@@ -1,0 +1,679 @@
+## 5.2	短语预热	先建立“听词组、写词组”的节奏
+a great deal of	大量
+a wide range of	范围很广的
+according to	根据
+as a result	因此
+as well as	以及
+at least	至少
+at the moment	目前
+be supposed to	应该
+because of	因为
+depend on	取决于
+due to	由于
+for instance	例如
+in addition	此外
+in advance	提前
+in charge of	负责
+in terms of	就……而言
+instead of	而不是
+look forward to	期待
+on behalf of	代表
+take part in	参加
+a number of	若干
+plenty of	大量
+lots of	很多
+a lack of	缺乏
+in fact	事实上
+of course	当然
+for example	例如
+such as	例如
+as soon as	一……就
+even though	即使
+in order to	为了
+so that	以便
+as long as	只要
+rather than	而不是
+apart from	除了
+along with	连同
+owing to	由于
+prior to	在……之前
+regardless of	不管
+in spite of	尽管
+
+## 5.3-1	校园生活	住宿、注册和校园服务
+hall of residence	学生宿舍
+freshers week	新生周
+enrolment form	注册表	enrollment form
+identity card	身份证
+library card	借书证
+opening hours	开放时间
+membership fee	会费
+shared kitchen	共用厨房
+room number	房间号
+security desk	安保台
+student card	学生证
+welfare office	福利办公室
+health centre	健康中心	health center
+advice centre	咨询中心	advice center
+careers service	就业指导处
+accommodation office	住宿办公室
+finance office	财务处
+international office	国际学生办公室
+students union	学生会
+club fair	社团招新会
+society membership	社团会员
+sports hall	体育馆
+fitness studio	健身室
+changing room	更衣室
+lost and found	失物招领
+fire exit	消防出口
+assembly point	集合点
+visitor parking	访客停车
+bike rack	自行车架
+campus map	校园地图
+guided tour	有导游的参观
+information desk	问讯处
+help desk	服务台
+drop-in session	无须预约的咨询
+office hours	办公时间
+term dates	学期日期
+reading week	阅读周
+exam period	考试周
+results day	放榜日
+graduation ceremony	毕业典礼
+
+## 5.3-2	图书馆与资料	借阅、检索和复印
+reference book	参考书
+course reserve	课程保留本
+short loan	短期外借
+due date	到期日
+overdue fine	逾期罚金
+library account	图书馆账户
+online catalogue	在线目录	online catalog
+search term	检索词
+keyword search	关键词检索
+full text	全文
+journal article	期刊文章
+back issue	过刊
+current issue	现刊
+reading list	阅读书目
+recommended reading	推荐阅读
+quiet zone	安静区
+group study room	小组学习室
+computer terminal	电脑终端
+printing credit	打印额度
+photocopy card	复印卡
+binding service	装订服务
+interlibrary loan	馆际互借
+special collection	特藏
+archive material	档案资料
+microfilm reader	缩微胶片阅读器
+call number	索书号
+subject heading	主题标目
+abstract only	仅有摘要
+peer review	同行评审
+open access	开放获取
+data set	数据集
+case study	案例研究
+literature review	文献综述
+research method	研究方法
+sample size	样本量
+control group	对照组
+pilot study	预研究
+follow-up study	后续研究
+primary source	第一手资料
+secondary source	第二手资料
+
+## 5.3-3	课程与研究	选课、作业和学术写作
+core module	核心模块
+optional module	选修模块
+contact hours	面授学时
+self study	自学
+group project	小组项目
+oral presentation	口头报告
+written assignment	书面作业
+word limit	字数限制
+marking scheme	评分标准
+grade boundary	分数线
+extension request	延期申请
+late penalty	迟交扣分
+plagiarism check	查重
+reference list	参考文献表
+in-text citation	文内引用
+topic sentence	主题句
+concluding paragraph	结尾段
+research question	研究问题
+working title	暂定标题
+ethical approval	伦理审批
+field notes	田野笔记
+lab report	实验报告
+raw data	原始数据
+bar chart	柱状图
+pie chart	饼图
+line graph	折线图
+flow chart	流程图
+vertical axis	纵轴
+horizontal axis	横轴
+key findings	主要发现
+further research	进一步研究
+practical session	实践课
+guest speaker	客座讲者
+coursework only	仅平时作业
+end of term	学期末
+past paper	往年试卷
+mock exam	模拟考试
+open book exam	开卷考试
+invigilated exam	有监考的考试
+resit exam	补考（英式）
+
+## 5.3-4	旅行与交通	订票、机场和问路
+return fare	往返票价
+off peak	非高峰
+peak time	高峰时段
+platform number	站台号
+carriage number	车厢号
+window seat	靠窗座位
+aisle seat	靠过道座位
+excess baggage	超重行李
+hand luggage	手提行李
+boarding gate	登机口
+departure lounge	候机厅
+connecting flight	转机航班
+direct flight	直飞
+stopover	中途停留
+travel insurance	旅行保险
+entry requirements	入境要求
+tourist visa	旅游签证
+customs declaration	海关申报
+foreign exchange	外币兑换
+traveller cheque	旅行支票	traveler check
+street map	街道图
+one way street	单行道
+pedestrian zone	步行区
+speed limit	限速
+traffic jam	交通堵塞
+road works	道路施工
+public transport	公共交通
+monthly pass	月票
+day ticket	日票
+lost property office	失物招领处
+taxi rank	出租车站（英式）
+car hire	租车（英式）	car rental
+driving licence	驾驶执照（英式）	driving license
+parking permit	停车许可
+parking meter	停车计时器
+service station	服务区；加油站
+departure time	出发时间
+arrival time	到达时间
+travel agent	旅行社
+package tour	跟团游
+
+## 5.3-5	环境与地理	环境报告和地理描述
+global warming	全球变暖
+climate change	气候变化
+greenhouse gas	温室气体
+carbon dioxide	二氧化碳
+fossil fuel	化石燃料
+renewable energy	可再生能源
+solar panel	太阳能电池板
+wind farm	风力发电场
+power station	发电站
+sea level	海平面
+ice cap	冰盖
+coral reef	珊瑚礁
+food chain	食物链
+endangered species	濒危物种
+nature reserve	自然保护区
+national park	国家公园
+soil erosion	水土流失
+water shortage	缺水
+air quality	空气质量
+noise pollution	噪音污染
+waste disposal	废物处理
+landfill site	填埋场
+bottle bank	瓶子回收站
+public awareness	公众意识
+sustainable development	可持续发展
+organic farming	有机农业
+crop rotation	轮作
+rain forest	雨林
+coastal area	沿海地区
+river basin	流域
+mountain range	山脉
+city centre	市中心	city center
+residential area	居住区
+industrial zone	工业区
+green belt	绿化带
+population density	人口密度
+birth rate	出生率
+life expectancy	预期寿命
+natural disaster	自然灾害
+weather forecast	天气预报
+
+## 5.3-6	工作与申请	求职、兼职和职场
+part time job	兼职	part-time job
+full time job	全职	full-time job
+job vacancy	职位空缺
+job application	求职申请
+covering letter	求职信（英式）
+curriculum vitae	简历
+work experience	工作经验
+personal statement	个人陈述
+interview panel	面试小组
+starting salary	起薪
+working hours	工作时间
+shift work	轮班
+unsocial hours	非正常工作时间
+paid leave	带薪假
+sick pay	病假工资
+notice period	通知期
+probation period	试用期
+job description	职位描述
+line manager	直属经理
+team leader	组长
+customer service	客户服务
+call centre	呼叫中心	call center
+help desk job	服务台工作
+voluntary work	志愿工作
+work placement	工作实习
+training course	培训课程
+professional qualification	职业资格
+reference number	编号
+equal opportunity	平等机会
+staff meeting	员工会议
+office equipment	办公设备
+filing cabinet	档案柜
+headed paper	带信头的纸
+direct debit	直接借记
+bank statement	银行对账单
+current account	活期账户（英式）
+savings account	储蓄账户
+sort code	银行代码（英式）
+account number	账号
+overdraft limit	透支额度
+
+## 5.3-7	健康与运动	挂号、运动和生活方式
+medical centre	医疗中心	medical center
+family doctor	家庭医生
+waiting list	等候名单
+repeat prescription	续配处方
+side effect	副作用
+blood pressure	血压
+heart rate	心率
+first aid	急救
+sports injury	运动损伤
+warm up	热身
+cool down	放松整理
+fitness class	健身课
+swimming session	游泳时段
+membership card	会员卡
+court booking	场地预订
+indoor court	室内场地
+outdoor pitch	室外球场
+running track	跑道
+changing facilities	更衣设施
+safety equipment	安全装备
+balanced diet	均衡饮食
+junk food	垃圾食品
+soft drink	软饮料
+whole grain	全谷物
+food label	食品标签
+sleep pattern	睡眠模式
+stress level	压力水平
+mental health	心理健康
+support group	互助小组
+counselling service	咨询服务（英式）	counseling service
+eye test	视力检查
+dental check	牙科检查
+health insurance	健康保险
+emergency ward	急诊病房
+outpatient clinic	门诊
+follow up visit	复诊	follow-up visit
+pain relief	止痛
+ice pack	冰袋
+stretching exercise	拉伸运动
+personal trainer	私人教练
+
+## 5.3-8	活动与社交	俱乐部、演出和休闲
+opening night	首演夜
+box office	售票处
+front row	前排
+standing room	站票区
+group discount	团体折扣
+advance booking	提前预订
+sold out	售罄
+age limit	年龄限制
+family ticket	家庭票
+guided walk	有讲解的步行
+art exhibition	艺术展
+permanent collection	常设展
+temporary exhibition	临时展览
+gift shop	礼品店
+closing time	闭馆时间
+welcome speech	欢迎辞
+registration desk	签到台
+name badge	姓名牌
+coffee break	茶歇
+panel discussion	小组讨论
+question time	提问时间
+social event	社交活动
+welcome party	欢迎会
+pot luck	百味餐；带菜聚会
+film club	电影俱乐部
+book club	读书会
+charity run	慈善跑
+fundraising event	筹款活动
+volunteer rota	志愿者轮值表
+lost ticket	遗失的票
+cloakroom	衣帽间
+seating plan	座位图
+interval drink	中场饮品
+encore performance	返场演出
+outdoor concert	户外音乐会
+rain check	改期
+community event	社区活动
+craft fair	手工艺市集
+local market	本地集市
+street performance	街头表演
+
+## 5.3-9	讲座与学术讨论	第四节和讨论课里的搭配
+main argument	主要论点
+supporting evidence	支持性证据
+case in point	恰当的例子
+on the contrary	相反
+in contrast	相比之下
+on the other hand	另一方面
+for this reason	因此
+in other words	换句话说
+to some extent	在某种程度上
+a case study	一个案例
+long term effect	长期影响	long-term effect
+short term effect	短期影响	short-term effect
+cause and effect	因果关系
+pros and cons	利与弊
+point of view	观点
+general public	公众
+common sense	常识
+rule of thumb	经验法则
+state of the art	最先进的
+cutting edge	前沿
+draw a conclusion	得出结论
+carry out research	开展研究
+collect data	收集数据
+analyse results	分析结果	analyze results
+test a theory	检验理论
+raise a question	提出问题
+sum up	总结
+move on	继续往下
+bear in mind	记住
+it is worth noting	值得注意
+broadly speaking	概括地说
+strictly speaking	严格地说
+in the meantime	与此同时
+as a whole	整体上
+by and large	总的来说
+to begin with	首先
+in conclusion	总之
+for the most part	很大程度上
+a turning point	转折点
+widespread belief	普遍看法
+
+## 5.3-10	城市与公共服务	市政介绍、设施和规章
+town hall	市政厅
+tourist information	旅游信息中心
+post office	邮局
+police station	警察局
+fire station	消防站
+public library	公共图书馆
+leisure centre	休闲中心	leisure center
+youth club	青年俱乐部
+care home	护理院
+primary school	小学
+secondary school	中学
+nursery school	幼儿园
+playground area	游乐区
+pedestrian crossing	人行横道
+speed camera	测速摄像头
+one way system	单行系统
+ring road	环路
+housing estate	住宅区
+high street	商业大街（英式）
+corner shop	街角小店
+shopping centre	购物中心	shopping center
+multi storey car park	多层停车场	multi-story car park
+disabled access	无障碍通道
+baby changing	婴儿换尿布处
+opening soon	即将开业
+under repair	维修中
+out of order	发生故障
+staff only	仅员工
+no entry	禁止进入
+keep left	靠左
+give way	让行（英式）
+road sign	路标
+bus lane	公交车道
+cycle path	自行车道
+street light	路灯
+rubbish collection	垃圾收集	garbage collection
+water supply	供水
+power cut	停电
+council tax	市政税（英式）
+residents permit	居民许可	resident's permit
+
+## 5.3-11	数量、时间与频率	数字和日期常连着这些词一起出现
+a dozen	一打；十二个
+half a dozen	半打
+a couple of	两个；几个
+a few	几个
+a little	一点
+the majority of	大多数
+a minority of	少数
+one third	三分之一
+two thirds	三分之二
+a quarter	四分之一
+three quarters	四分之三
+fifty percent	百分之五十
+half price	半价
+free of charge	免费
+on sale	降价出售
+in stock	有现货
+out of stock	缺货
+the day after tomorrow	后天
+a fortnight	两周（英式）
+every other week	每隔一周
+on weekdays	在工作日
+at the weekend	在周末（英式）
+for the time being	暂时
+in the long term	从长远看
+in the short term	从短期看
+ahead of schedule	提前
+behind schedule	进度落后
+public holiday	公共假期
+bank holiday	银行假日（英国公休）
+leap year	闰年
+time zone	时区
+local time	当地时间
+once a fortnight	每两周一次
+three times a week	每周三次
+on a daily basis	按每天
+in the early morning	在清晨
+late at night	在深夜
+half past	……点半
+quarter past	……点过一刻
+quarter to	差一刻到……点
+at noon	在中午
+at midnight	在午夜
+by Friday	在星期五之前
+from Monday	从星期一开始
+nineteenth century	十九世纪
+twentieth century	二十世纪
+early morning shift	早班
+closing date	截止日期
+birth certificate	出生证明
+year of study	在读年级
+
+## 5.3-12	综合高频搭配	容易听漏词的固定搭配
+mother tongue	母语
+second language	第二语言
+native speaker	母语者
+language barrier	语言障碍
+sense of humour	幽默感	sense of humor
+body language	肢体语言
+eye contact	眼神交流
+first impression	第一印象
+common interest	共同兴趣
+circle of friends	朋友圈
+quality of life	生活质量
+standard of living	生活水平
+cost of living	生活成本
+way of life	生活方式
+frame of mind	心情
+peace of mind	安心
+piece of advice	一条建议
+word of mouth	口口相传
+point of contact	联系人
+range of options	一系列选择
+set of rules	一套规则
+series of events	一系列事件
+pair of shoes	一双鞋
+bunch of keys	一串钥匙
+bar of soap	一块肥皂
+tube of toothpaste	一管牙膏
+bottle of water	一瓶水
+cup of tea	一杯茶
+loaf of bread	一条面包
+packet of biscuits	一包饼干（英式）
+tin of soup	一罐汤（英式）
+piece of paper	一张纸
+sheet of paper	一页纸
+pile of books	一摞书
+row of seats	一排座位
+line of trees	一排树
+sense of direction	方向感
+waste of time	浪费时间
+matter of time	时间问题
+kind of person	一种人
+sort of problem	这类问题
+type of accommodation	住宿类型
+level of difficulty	难度
+rate of change	变化速率
+source of income	收入来源
+means of transport	交通方式
+method of payment	付款方式
+form of identification	身份证明形式
+lack of sleep	睡眠不足
+fear of failure	对失败的恐惧
+chance of success	成功的可能性
+risk of injury	受伤风险
+sign of progress	进步的迹象
+amount of money	金额
+number of people	人数
+sum of money	一笔钱
+rest of the group	组里其余的人
+end of the day	一天结束时
+start of term	开学
+middle of the night	半夜
+top of the page	页首
+bottom of the form	表格底部
+back of the room	房间后部
+front of the building	楼的正面
+side of the road	路边
+edge of the town	城镇边缘
+heart of the city	市中心
+outskirts of the city	城市郊区
+centre of attention	关注的中心	center of attention
+matter of fact	事实问题；其实
+state of repair	修缮状况
+hall of fame	名人堂
+work of art	艺术作品
+field of study	研究领域
+area of research	研究领域
+topic of conversation	话题
+subject of debate	辩论主题
+object of study	研究对象
+purpose of the visit	来访目的
+aim of the project	项目目标
+result of the survey	调查结果
+outcome of the meeting	会议结果
+effect of the change	这一变化的影响
+cause of the problem	问题的原因
+solution to the problem	问题的解决办法
+answer to the question	问题的答案
+key to success	成功的关键
+access to information	获取信息的途径
+approach to learning	学习方法
+attitude to work	工作态度	attitude toward work
+need for change	变革的需要
+demand for housing	住房需求
+supply of water	供水
+increase in price	价格上涨
+decrease in number	数量下降
+rise in temperature	气温上升
+fall in sales	销量下降
+growth in population	人口增长
+drop in quality	质量下降
+change in plan	计划变更
+shift in attitude	态度转变
+focus on detail	关注细节
+based on evidence	基于证据
+related to health	与健康有关
+compared with last year	与去年相比
+responsible for safety	对安全负责
+suitable for children	适合儿童
+available on request	可应要求提供
+included in the fee	费用已包含
+excluded from the price	价格不含
+located in the centre	位于中心	located in the center
+surrounded by trees	树木环绕
+divided into groups	分成小组
+made of wood	由木头制成
+used for storage	用于存放
+known as	被称为
+referred to as	被称作
+associated with	与……相关
+involved in	参与
+interested in	对……感兴趣
+good at	擅长
+aware of	意识到
+short of	缺少
+full of	充满
+proud of	为……自豪
+tired of	厌倦
+capable of	能够
+fond of	喜欢
+afraid of	害怕
+instead of cash	而不是现金
+according to the map	根据地图
+due to bad weather	由于坏天气
+in case of fire	万一着火
+in front of	在……前面
+next to	在……旁边
+close to	靠近
+far from	远离
+away from	离开
+out of	从……出来；缺乏
+up to date	最新的
+out of date	过时的
+up to you	由你决定
+on time	准时
+in time	来得及
+at risk	处于风险中
+at ease	自在
+on purpose	故意
+by accident	偶然
+by hand	手工
+on foot	步行
+by heart	背诵
+in common	共同
+in general	一般说来
+in particular	尤其
+in public	公开地
+in private	私下
+on average	平均
+at present	目前
+at first	起初
+at last	终于
+in brief	简言之
+in detail	详细地
+in practice	在实践中
+in theory	在理论上

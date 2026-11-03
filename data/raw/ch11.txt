@@ -1,0 +1,594 @@
+## 11.1	生活场景	第一节：表格、预订和日常信息
+surname	姓
+first name	名
+title	称谓；标题
+marital status	婚姻状况
+nationality	国籍
+occupation	职业
+home address	家庭住址
+mobile number	手机号
+date of birth	出生日期
+place of birth	出生地
+emergency contact	紧急联系人
+dietary requirement	饮食要求
+non-smoker	非吸烟者	nonsmoker
+shared room	合住房
+en suite	带独立卫生间的
+twin room	双床房
+double room	双人大床房
+single room	单人间
+sea view	海景
+ground floor room	底层房间
+wake up call	叫醒服务
+late checkout	延迟退房
+travel cot	婴儿床
+extra bed	加床
+high chair	儿童高脚椅
+non refundable	不可退款的	non-refundable
+payment method	付款方式
+credit card	信用卡
+debit card	借记卡
+expiry date	到期日
+security code	安全码
+card holder	持卡人	cardholder
+cash only	仅收现金
+online booking	网上预订
+confirmation email	确认邮件
+reference code	参考编号
+pickup time	接人时间
+drop off point	下车点	drop-off point
+return journey	回程
+outward journey	去程
+left luggage	行李寄存
+locker key	储物柜钥匙
+combination lock	密码锁
+missing item	遗失物品
+description of item	物品描述
+contact number	联系电话
+preferred time	偏好时间
+morning slot	上午时段
+afternoon slot	下午时段
+evening class	晚间课程
+trial session	体验课
+membership type	会员类型
+monthly fee	月费
+joining fee	入会费
+photo identification	带照片的证件
+proof of address	地址证明
+bank details	银行信息
+direct transfer	直接转账
+signed form	已签名的表格
+printed copy	打印件
+original document	原件
+spare key	备用钥匙
+spare room	客房
+household size	家庭人数
+number of children	孩子数量
+pet policy	宠物规定
+smoking area	吸烟区
+quiet room	安静房间
+special request	特殊要求
+## 11.2	导览与介绍	第二节：场所介绍、路线和规则
+welcome to	欢迎来到
+on your left	在你的左侧
+on your right	在你的右侧
+straight ahead	正前方
+at the end of	在……尽头
+just past	刚过
+opposite the	在……对面
+next door to	在……隔壁
+around the corner	在拐角处
+up the stairs	上楼
+down the corridor	沿走廊走
+take the lift	乘电梯（英式）
+turn left	向左转
+turn right	向右转
+go straight	直走
+cross the bridge	过桥
+follow the path	沿小路走
+keep walking	继续走
+you can't miss it	你不会错过
+founded in	创立于
+dates back to	追溯到
+named after	以……命名
+used to be	过去是
+converted into	被改建成
+open to the public	对公众开放
+closed on Mondays	周一闭馆
+free entry	免费入场
+admission charge	门票
+audio guide	语音导览
+gift voucher	礼品券
+picnic area	野餐区
+viewing platform	观景台
+information board	信息牌
+do not touch	请勿触摸
+flash photography	闪光灯摄影
+no flash	禁止闪光灯
+guided group	旅行团
+maximum capacity	最大容量
+every half hour	每半小时
+last entry	最后入场
+meeting point	集合点
+coach park	大巴停车场
+wheelchair access	轮椅通道
+baby buggy	婴儿车（英式）
+lost child	走失儿童
+first aid post	急救点
+souvenir shop	纪念品商店
+cafe terrace	咖啡馆露台
+herb garden	香草园
+sculpture trail	雕塑小径
+bird hide	观鸟隐蔽处
+way out	出口
+way in	入口
+staff entrance	员工入口
+emergency exit	紧急出口
+please queue	请排队
+one at a time	一次一个
+in single file	成一列
+mind the step	小心台阶
+watch your head	小心碰头
+stay on the path	请走在小路上
+dogs on leads	狗须牵绳
+no feeding	禁止投喂
+opening season	开放季
+winter closure	冬季关闭
+restoration work	修复工程
+temporary entrance	临时入口
+new extension	新建部分
+original building	原建筑
+upper floor	楼上
+lower floor	楼下
+rear entrance	后门
+side gate	侧门
+main gate	大门
+car entrance	车辆入口
+ticket office	售票处
+group entrance	团体入口
+map leaflet	地图折页
+safety briefing	安全说明
+closing announcement	闭馆广播
+## 11.3	讨论与选题	第三节：两人讨论作业和安排
+what do you think	你怎么看
+I am not sure	我不确定
+that sounds good	听起来不错
+it depends	看情况
+good point	有道理
+I agree	我同意
+I doubt it	我怀疑
+let us see	我们看看	let's see
+how about	……怎么样
+why not	为什么不
+what about	……呢
+the trouble is	问题在于
+the problem is	问题是
+another option	另一个选择
+either way	无论哪种
+on second thoughts	转念一想（英式）	on second thought
+I would rather	我宁愿
+we could always	我们总可以
+shall we	我们……好吗
+do you mind	你介意吗
+it does not matter	没关系
+never mind	没关系
+hang on	等一下
+go ahead	请说；继续
+after you	你先
+your turn	轮到你
+my turn	轮到我
+fair enough	有道理
+sort of	有点
+kind of	有点儿
+a bit	有一点
+too much	太多
+not enough	不够
+much better	好得多
+even worse	更糟
+the same as	与……相同
+different from	与……不同
+similar to	与……相似
+compared to	与……相比
+as well	也
+me too	我也是
+me neither	我也不
+I suppose so	我想是吧
+I hope so	希望如此
+I am afraid	恐怕	I'm afraid
+that makes sense	说得通
+I get it	我明白了
+let me check	让我查一下
+I will find out	我会查清	I'll find out
+have a look	看一看
+take a look	看一下
+write it down	把它写下来
+cross it out	把它划掉
+fill it in	填写
+hand it in	上交
+give it back	归还
+pick it up	取走；学会
+drop it off	顺路送下
+put it off	推迟
+call it off	取消
+bring it up	提出
+look it up	查阅
+figure it out	弄明白
+talk it over	商量
+think it over	仔细考虑
+try it out	试一试
+set it up	安排好；安装
+turn it down	拒绝；调低
+turn it up	调高
+switch it off	关掉
+leave it on	让它开着
+take it easy	别着急
+keep in touch	保持联系
+get in touch	取得联系
+come up with	想出
+put up with	忍受
+run out of	用完
+get rid of	去掉
+look after	照看
+look into	调查
+deal with	处理
+catch up with	赶上
+make up for	弥补
+carry on	继续
+give up	放弃
+find out	查明
+point out	指出
+work out	解决；算出
+check out	查看；退房
+set off	出发
+get on	上车；进展
+get off	下车
+pick up	接人；拾起
+drop in	顺便拜访
+sign up	报名
+join in	加入
+take over	接管
+hand over	移交
+back up	备份；支持
+follow up	跟进
+break down	出故障；分解
+slow down	放慢
+speed up	加快
+cut down	削减
+build up	积累
+end up	最终
+start off	开始
+go over	复习；仔细看
+read through	通读
+note down	记下
+sum it up	总结一下
+## 11.4	讲座词汇	第四节：学科讲座里要能拼出来的词
+archaeology	考古学
+architecture	建筑学
+psychology	心理学
+philosophy	哲学
+sociology	社会学
+anthropology	人类学
+linguistics	语言学
+economics	经济学
+geography	地理学
+geology	地质学
+biology	生物学
+chemistry	化学
+physics	物理学
+astronomy	天文学
+ecology	生态学
+genetics	遗传学
+evolution	进化
+molecule	分子
+atom	原子
+gravity	重力
+orbit	轨道
+planet	行星
+satellite	卫星
+telescope	望远镜
+microscope	显微镜
+bacteria	细菌
+virus	病毒
+cell	细胞
+tissue	组织（生物）
+organ	器官
+hormone	激素
+enzyme	酶
+nutrient	营养素
+photosynthesis	光合作用
+chromosome	染色体
+gene	基因
+mutation	突变
+stimulus	刺激
+perception	感知
+memory	记忆
+infant	婴儿
+adolescent	青少年
+motivation	动机
+anxiety	焦虑
+depression	抑郁
+therapy	治疗
+symptom pattern	症状模式
+census data	普查数据
+democracy	民主
+legislation draft	立法草案
+inequality gap	不平等差距
+urbanisation	城市化	urbanization
+migration	迁移
+settlement	定居点
+civilisation	文明	civilization
+empire	帝国
+dynasty	王朝
+artefact	人工制品（英式）	artifact
+pottery	陶器
+ruins	遗迹
+excavation	发掘
+manuscript	手稿
+inscription	铭文
+dialect	方言
+accent	口音
+metaphor	隐喻
+narrative	叙事
+genre	体裁
+rhythm	节奏
+melody	旋律
+harmony	和声
+composition	作曲；构成
+sculpture	雕塑
+portrait	肖像
+landscape painting	风景画
+exhibition catalogue	展览目录	exhibition catalog
+patron	赞助人
+audience response	观众反应
+media	媒体（复数）
+medium	媒介（单数）
+broadcast	广播
+documentary	纪录片
+headline	标题
+editorial	社论
+journalist	记者
+source	来源
+bias	偏见
+propaganda	宣传
+censorship	审查
+copyright	版权
+patent	专利
+innovation	创新
+invention	发明
+experiment design	实验设计
+variable	变量
+constant	常量
+correlation	相关
+causation	因果关系
+probability	概率
+frequency	频率
+average	平均数
+median	中位数
+outlier	异常值
+margin	差额；页边
+error	误差；错误
+validity	效度
+reliability	信度
+limitation	局限
+implication	含义；影响
+recommendation	建议
+conclusion section	结论部分
+further study	后续研究
+case evidence	案例证据
+historical context	历史背景
+social structure	社会结构
+economic growth	经济增长
+political system	政治体制
+public opinion	舆论
+scientific method	科学方法
+natural selection	自然选择
+plate tectonics	板块构造
+magnetic field	磁场
+solar system	太阳系
+light year	光年
+black hole	黑洞
+climate model	气候模型
+food web	食物网
+carbon cycle	碳循环
+water cycle	水循环
+oxygen	氧气
+nitrogen	氮气
+hydrogen	氢气
+calcium	钙
+iron ore	铁矿
+copper	铜
+timber	木材
+textile	纺织品
+ceramic	陶瓷
+alloy	合金
+engine part	发动机零件
+circuit	电路
+voltage	电压
+resistance	电阻
+wavelength	波长
+frequency band	频段
+digital signal	数字信号
+database	数据库
+software	软件
+hardware	硬件
+network	网络
+password	密码
+interface	界面
+algorithm	算法
+simulation	模拟
+prototype	原型
+measurement	测量
+calculation	计算
+observation	观察
+classification	分类
+comparison	比较
+interpretation	解释
+translation	翻译
+definition term	定义项
+technical term	术语
+everyday language	日常语言
+specialised vocabulary	专业词汇	specialized vocabulary
+abstract concept	抽象概念
+concrete example	具体例子
+general principle	一般原则
+specific case	具体情况
+underlying cause	深层原因
+immediate effect	直接影响
+long range	远距离；长期	long-range
+short range	近距离	short-range
+widespread use	广泛使用
+limited supply	供应有限
+rapid growth	快速增长
+steady decline	稳步下降
+sharp increase	急剧上升
+slight change	微小变化
+major factor	主要因素
+minor detail	次要细节
+key feature	关键特征
+common pattern	常见模式
+rare exception	罕见例外
+typical example	典型例子
+unusual finding	不寻常的发现
+previous research	先前的研究
+current debate	当前的争论
+future trend	未来趋势
+practical application	实际应用
+theoretical framework	理论框架
+experimental result	实验结果
+statistical analysis	统计分析
+qualitative data	定性数据
+quantitative data	定量数据
+random sample	随机样本
+target group	目标群体
+age group	年龄组
+control condition	对照条件
+side issue	枝节问题
+central theme	中心主题
+opening remark	开场白
+closing remark	结束语
+final point	最后一点
+next lecture	下一讲
+required reading	必读材料
+optional reading	选读材料
+seminar topic	研讨题目
+essay title	论文题目
+exam question	考试问题
+mark scheme	评分细则
+model answer	参考答案
+common mistake	常见错误
+spelling error	拼写错误
+grammar point	语法点
+word stress	单词重音
+connected speech	连读
+silent letter	不发音的字母
+double consonant	双写辅音
+vowel sound	元音
+consonant cluster	辅音连缀
+British English	英式英语
+standard spelling	标准拼写
+acceptable variant	可接受的变体
+answer sheet	答题纸
+question paper	试卷
+candidate number	考生号
+listening section	听力部分
+blank space	空格
+word limit rule	字数限制规则
+no more than	不超过
+one word only	仅一个词
+two words	两个词
+a number	一个数字
+capital letter	大写字母
+plural form	复数形式
+singular form	单数形式
+correct spelling	正确拼写
+wrong spelling	错误拼写
+full mark	满分
+half mark	半分
+lost mark	失分
+time limit	时间限制
+remaining time	剩余时间
+final answer	最终答案
+rough note	草稿笔记
+transfer time	誊写时间
+headphones	耳机
+volume control	音量控制
+example answer	示例答案
+practice test	模拟练习
+review session	复习课
+listening stamina	听力耐力
+focus	专注
+distraction	分心
+background noise	背景噪音
+key word	关键词
+signal word	信号词
+discourse marker	话语标记
+contrast marker	转折标记
+example marker	举例标记
+sequence marker	顺序标记
+cause marker	原因标记
+result marker	结果标记
+summary marker	总结标记
+attitude word	态度词
+degree word	程度词
+quantity word	数量词
+time expression	时间表达
+place expression	地点表达
+person reference	指人表达
+number expression	数字表达
+spelling trap	拼写陷阱
+homophone	同音词
+minimal pair	最小对立体
+stress pattern	重音模式
+weak form	弱读式
+linking sound	连读音
+elision	省音
+assimilation	同化
+intonation	语调
+falling tone	降调
+rising tone	升调
+pause	停顿
+chunk	意群
+prediction	预测
+confirmation	确认
+correction	纠正
+note completion	笔记填空
+form completion	表格填空
+map labelling	地图标注	map labeling
+plan labelling	平面图标注	plan labeling
+sentence completion	句子填空
+summary completion	摘要填空
+multiple choice	选择题
+matching task	匹配题
+flow chart task	流程图题
+table completion	表格填空
+short answer	简答题
+final transfer	最后誊写
+careful check	仔细检查
+score report	成绩报告
+band score	雅思分数段
+target score	目标分
+weak section	薄弱部分
+next attempt	下一次尝试
+study plan	学习计划
+weekly review	每周复习
+mistake pattern	错误模式
+spelling rule	拼写规则
+memory cue	记忆线索
+practice record	练习记录
+progress chart	进度图
+goal setting	目标设定
+confidence	信心
+accuracy	准确率
+fluency	流利度
+revision	复习（英式）
+consolidation	巩固
+retention	记忆保持
+forgetting curve	遗忘曲线
+spaced review	间隔复习
+active recall	主动回忆
+self correction	自我纠正	self-correction
+answer key	答案
+context clue	语境线索
+topic vocabulary	话题词汇
+morning review	早晨复习
+evening review	晚间复习
