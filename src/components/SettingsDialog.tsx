@@ -8,7 +8,7 @@ export function SettingsDialog({ open, onOpenChange }: { open: boolean; onOpenCh
   const { settings } = state
   return (
     <Dialog open={open} onOpenChange={onOpenChange} title="练习设置" description="都存在这台浏览器里，换设备请用进度页的导出。">
-      <div className="flex flex-col gap-5">
+      <div className="dialog-body">
         <Segmented
           label="每组词数"
           value={settings.batchSize}
@@ -42,8 +42,8 @@ export function SettingsDialog({ open, onOpenChange }: { open: boolean; onOpenCh
           options={MASTERY.map((count) => ({ value: count, label: `${count} 次` }))}
           onChange={(masteryStreak) => setSettings({ masteryStreak })}
         />
-        <label className="flex flex-col gap-1 text-sm">
-          <span className="text-xs tracking-wide text-faint">今日目标（词）</span>
+        <label className="seg">
+          <span className="seg-label">今日目标（词）</span>
           <input
             type="number"
             min={5}
@@ -53,7 +53,7 @@ export function SettingsDialog({ open, onOpenChange }: { open: boolean; onOpenCh
               const dailyGoal = Number(event.target.value)
               if (dailyGoal >= 5 && dailyGoal <= 500) setSettings({ dailyGoal: Math.round(dailyGoal) })
             }}
-            className="h-10 w-28 rounded-xl border border-line bg-canvas px-3 text-ink"
+            className="field field-num"
           />
         </label>
       </div>

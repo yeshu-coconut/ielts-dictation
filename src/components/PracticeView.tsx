@@ -1,14 +1,13 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { ChevronLeft, ChevronRight, Shuffle, Volume2 } from 'lucide-react'
+import { Check, ChevronLeft, ChevronRight, Shuffle, Volume2, X } from 'lucide-react'
 import { useStudy } from '../context/StudyContext.tsx'
 import { usePronunciation } from '../hooks/usePronunciation.ts'
 import { isCorrect } from '../lib/grade.ts'
 import { chunk, clampIndex, shuffleItems } from '../lib/groups.ts'
-import { BATCH_SIZES, RATES, REPEATS } from '../lib/progress.ts'
-import { audioUrl, cn, percent } from '../lib/utils.ts'
+import { RATES } from '../lib/progress.ts'
+import { audioUrl, cn } from '../lib/utils.ts'
 import type { Entry, PracticeRequest } from '../types.ts'
 import { Button } from './ui/button.tsx'
-import { Segmented } from './Segmented.tsx'
 
 type Result = { input: string; ok: boolean; note: string }
 
@@ -181,30 +180,47 @@ export function PracticeView({ request, onExit }: { request: PracticeRequest; on
   }
 
   const statusLabel =
-    status === 'playing' ? '播放中' : status === 'loading' ? '准备发音' : status === 'blocked' ? '点一下播放' : status === 'error' ? '音频没加载到' : '听写'
+    status === 'playing'
+      ? '播放中'
+      : status === 'loading'
+        ? '准备发音'
+        : status === 'blocked'
+          ? '点一下播放'
+          : status === 'error'
+            ? '音频没加载到'
+            : '点击重听'
+  const isLast = view.cursor >= view.order.length - 1
+  const wrongCount = answeredCount - correctCount
 
   return (
-    <div className="mx-auto flex w-full max-w-3xl flex-col gap-4 px-4 py-4 pb-24 sm:py-6">
-      <div className="flex flex-wrap items-center justify-between gap-3">
-        <button type="button" onClick={onExit} className="text-sm text-muted hover:text-ink">
-          ← 返回
+    <div className="page practice">
+      <div className="practice-head">
+        <button type="button" onClick={onExit} className="back">
+          <ChevronLeft size={18} />
+          {request.kind === 'review' ? '错词本' : '词库'}
         </button>
-        <div className="text-right">
-          <p className="text-xs text-brass">{request.kicker}</p>
-          <h1 className="font-serif text-2xl">{request.title}</h1>
+        <div className="practice-title">
+          <h1>{request.title}</h1>
+          <p>{request.kicker}</p>
         </div>
       </div>
 
-      <div className="flex flex-wrap items-center gap-2 rounded-2xl border border-line bg-panel/80 p-3">
-        <Button size="sm" variant="ghost" onClick={() => changeGroup(groupIndex - 1)} disabled={groupIndex === 0}>
-          <ChevronLeft size={16} /> 上一组
-        </Button>
-        <label className="text-sm text-muted">
-          <span className="sr-only">跳到分组</span>
+      <div className="toolbar">
+        <div className="toolbar-group">
+          <button
+            type="button"
+            className="icon-btn"
+            aria-label="上一组"
+            onClick={() => changeGroup(groupIndex - 1)}
+            disabled={groupIndex === 0}
+          >
+            <ChevronLeft size={18} />
+          </button>
           <select
             value={groupIndex}
             onChange={(event) => changeGroup(Number(event.target.value))}
-            className="rounded-full border border-line bg-canvas px-3 py-1 text-ink"
+            className="select select-sm num"
+            aria-label="跳到分组"
           >
             {groups.map((items, index) => (
               <option key={items[0]?.id ?? index} value={index}>
@@ -212,104 +228,88 @@ export function PracticeView({ request, onExit }: { request: PracticeRequest; on
               </option>
             ))}
           </select>
-        </label>
-        <Button
-          size="sm"
-          variant="ghost"
-          onClick={() => changeGroup(groupIndex + 1)}
-          disabled={groupIndex >= groups.length - 1}
-        >
-          下一组 <ChevronRight size={16} />
-        </Button>
-        <Button size="sm" variant={shuffleOn ? 'solid' : 'quiet'} onClick={() => setShuffleOn((value) => !value)}>
-          <Shuffle size={14} /> {shuffleOn ? '已乱序' : '组内乱序'}
-        </Button>
-        {request.kind === 'review' ? (
-          <span className="ml-auto text-xs text-faint">错词复习固定 20 词一组</span>
-        ) : (
-          <label className="ml-auto text-sm text-muted">
-            <span className="mr-2 text-xs text-faint">每组</span>
-            <select
-              value={settings.batchSize}
-              onChange={(event) => setSettings({ batchSize: Number(event.target.value) as 10 | 20 | 30 | 50 })}
-              className="rounded-full border border-line bg-canvas px-3 py-1 text-ink"
-            >
-              {BATCH_SIZES.map((size) => (
-                <option key={size} value={size}>
-                  {size} 词
-                </option>
-              ))}
-            </select>
-          </label>
-        )}
+          <button
+            type="button"
+            className="icon-btn"
+            aria-label="下一组"
+            onClick={() => changeGroup(groupIndex + 1)}
+            disabled={groupIndex >= groups.length - 1}
+          >
+            <ChevronRight size={18} />
+          </button>
+        </div>
+        <div className="toolbar-group">
+          <select
+            value={settings.rate}
+            onChange={(event) => {
+              const rate = Number(event.target.value)
+              setSettings({ rate })
+              setRate(rate)
+            }}
+            className="select select-sm num"
+            aria-label="语速"
+          >
+            {RATES.map((rate) => (
+              <option key={rate} value={rate}>
+                {rate}×
+              </option>
+            ))}
+          </select>
+          <button
+            type="button"
+            className="chip"
+            aria-pressed={shuffleOn}
+            aria-label="组内乱序"
+            onClick={() => setShuffleOn((value) => !value)}
+          >
+            <Shuffle size={16} />
+            <span className="chip-label">{shuffleOn ? '已乱序' : '乱序'}</span>
+          </button>
+        </div>
       </div>
 
-      <section className="rounded-3xl border border-line bg-panel/85 px-5 py-6 sm:px-8">
-        <div className="mb-5 flex items-center justify-between text-xs text-faint tabular-nums">
-          <span>
-            {view.cursor + 1} / {view.order.length || 0}
-          </span>
-          <span>
-            本组 {correctCount}/{answeredCount || 0}
-            {answeredCount ? ` · ${percent(correctCount, answeredCount)}` : ''}
-          </span>
-        </div>
-        <div className="mb-6 flex gap-1" aria-hidden="true">
+      <section className="panel sheet">
+        <div className="ticks" aria-hidden="true">
           {view.order.map((entry, index) => {
             const mark = view.results[entry.id]
             return (
               <span
                 key={entry.id}
-                className={cn(
-                  'h-1.5 flex-1 rounded-full',
-                  mark ? (mark.ok ? 'bg-good' : 'bg-bad') : index === view.cursor ? 'bg-brass' : 'bg-line',
-                )}
+                className={mark ? (mark.ok ? 'is-ok' : 'is-bad') : index === view.cursor ? 'is-now' : undefined}
               />
             )
           })}
         </div>
+        <div className="sheet-meta">
+          <span>
+            第 {view.order.length ? view.cursor + 1 : 0} / {view.order.length} 题
+          </span>
+          <span>
+            对 {correctCount}　错 {wrongCount}
+          </span>
+        </div>
 
-        <div className="flex flex-col items-center gap-4">
+        <div className="listen">
           <button
             type="button"
             onClick={replay}
-            className={cn(
-              'grid h-16 w-16 place-items-center rounded-full border border-brass/50 bg-canvas text-brass shadow-[0_0_40px_rgba(228,180,92,0.15)] sm:h-24 sm:w-24',
-              status === 'playing' && 'animate-pulse',
-            )}
+            className={cn('play', status === 'playing' && 'is-playing')}
             aria-label="重听"
           >
-            <Volume2 size={32} />
+            <Volume2 size={26} />
           </button>
-          <p className="text-sm text-muted">{statusLabel} · 本地英音</p>
+          <p className="listen-status">{statusLabel}</p>
           {status === 'error' ? (
-            <p className="text-center text-sm text-bad">这个发音文件没有加载成功。确认音频已随站点一起发布。</p>
+            <p className="listen-error">这个发音文件没有加载成功。确认音频已随站点一起发布。</p>
           ) : null}
         </div>
 
-        {item && result ? (
-          <div className="mt-6 text-center">
-            <p className={cn('text-xs tracking-wide', result.ok ? 'text-good' : 'text-bad')}>
-              {result.ok ? '正确' : '再看一遍拼写'}
-            </p>
-            {!result.ok && result.input ? (
-              <p className="mt-2 text-sm text-bad line-through decoration-bad/70">{result.input}</p>
-            ) : null}
-            {!result.ok && !result.input ? <p className="mt-2 text-sm text-faint">这题空着过了</p> : null}
-            <p className="mt-2 font-serif text-3xl leading-tight break-words text-brass-2 sm:text-4xl">{item.word}</p>
-            <p className="mt-2 text-lg text-ink">{item.meaning}</p>
-            {result.note ? <p className="mt-2 text-sm text-muted">{result.note}</p> : null}
-          </div>
-        ) : (
-          <p className="mt-6 text-center text-sm text-faint">听完再写。先别看中文。</p>
-        )}
-
         <form
-          className="mt-6"
+          className="answer"
           onSubmit={(event) => {
             event.preventDefault()
             if (result) {
-              if (view.cursor < view.order.length - 1) goCursor(view.cursor + 1)
+              if (!isLast) goCursor(view.cursor + 1)
               return
             }
             grade(draft)
@@ -329,62 +329,62 @@ export function PracticeView({ request, onExit }: { request: PracticeRequest; on
             autoComplete="off"
             spellCheck={false}
             enterKeyHint="done"
-            placeholder="在这里拼写，Enter 核对"
-            className="w-full border-0 border-b border-line bg-transparent py-3 text-center font-mono text-2xl text-ink outline-none placeholder:text-base placeholder:text-faint focus:border-brass"
+            placeholder={result ? '这题空着过了' : '在这里拼写'}
+            className={cn('answer-input', result && (result.ok ? 'is-ok' : 'is-bad'))}
           />
-          <div className="mt-4 flex flex-wrap justify-center gap-2">
-            <Button variant="solid" type="submit" disabled={!item}>
-              {result ? (view.cursor < view.order.length - 1 ? '下一题' : '本组已核对') : '核对'}
+
+          {item && result ? (
+            <div className={cn('verdict', result.ok ? 'is-ok' : 'is-bad')} role="status">
+              <p className="verdict-label">
+                {result.ok ? <Check size={14} /> : <X size={14} />}
+                {result.ok ? '写对了' : '写错了'}
+              </p>
+              {result.ok ? null : <p className="verdict-word">{item.word}</p>}
+              <p className="verdict-meaning">{item.meaning}</p>
+              {result.note ? <p className="verdict-note">{result.note}</p> : null}
+            </div>
+          ) : (
+            <div className="verdict">
+              <p className="verdict-wait">听完再写，先别看中文</p>
+            </div>
+          )}
+
+          <div className="answer-actions">
+            <Button variant="solid" size="lg" type="submit" disabled={!item || (Boolean(result) && isLast)}>
+              {result ? (isLast ? '本组已核对' : '下一题') : '核对'}
             </Button>
-            <Button variant="quiet" onClick={replay} disabled={!item}>
-              重听
-            </Button>
-            <Button variant="ghost" onClick={() => grade(draft, true)} disabled={!item || Boolean(result)}>
-              不会
-            </Button>
-            <Button variant="ghost" onClick={() => goCursor(view.cursor - 1)} disabled={view.cursor === 0}>
-              上一题
-            </Button>
+            <div className="answer-more">
+              <Button variant="ghost" onClick={() => grade(draft, true)} disabled={!item || Boolean(result)}>
+                不会
+              </Button>
+              <Button variant="ghost" onClick={() => goCursor(view.cursor - 1)} disabled={view.cursor === 0}>
+                上一题
+              </Button>
+            </div>
           </div>
-          <p className="mt-3 text-center text-xs text-faint">
-            Enter 核对或下一题 · F2 重听 · Ctrl+Enter 记为不会
+          <p className="keys">
+            <kbd>Enter</kbd> 核对或下一题　<kbd>F2</kbd> 重听　<kbd>Ctrl</kbd> + <kbd>Enter</kbd> 记为不会
           </p>
         </form>
 
-        <div className="mt-6 grid gap-4 sm:grid-cols-2">
-          <Segmented
-            label="语速"
-            value={settings.rate}
-            options={RATES.map((rate) => ({ value: rate, label: `${rate}×` }))}
-            onChange={(rate) => {
-              setSettings({ rate })
-              setRate(rate)
-            }}
-          />
-          <Segmented
-            label="重复"
-            value={settings.repeats}
-            options={REPEATS.map((count) => ({ value: count, label: `${count} 次` }))}
-            onChange={(repeats) => setSettings({ repeats })}
-          />
-        </div>
-
         {allDone ? (
-          <div className="mt-6 rounded-2xl border border-line bg-canvas/70 p-4">
-            <p className="font-serif text-2xl text-brass-2">
-              本组 {correctCount}/{view.order.length}
-            </p>
-            <p className="mt-1 text-sm text-muted">答错的词已经在错词本里。可以重练本组，或去下一组。</p>
-            <ul className="mt-3 max-h-40 space-y-1 overflow-auto text-sm">
-              {view.order.filter((entry) => view.results[entry.id] && !view.results[entry.id]?.ok).map((entry) => (
-                <li key={entry.id} className="flex justify-between gap-3">
-                  <span className="font-mono text-bad">{entry.word}</span>
-                  <span className="text-muted">{entry.meaning}</span>
-                </li>
-              ))}
-              {correctCount === view.order.length ? <li className="text-good">这一组没有拼错。</li> : null}
+          <div className="summary">
+            <h2 className="num">
+              本组 {correctCount} / {view.order.length}
+            </h2>
+            <p>答错的词已经在错词本里。可以重练本组，或去下一组。</p>
+            <ul className="summary-list">
+              {view.order
+                .filter((entry) => view.results[entry.id] && !view.results[entry.id]?.ok)
+                .map((entry) => (
+                  <li key={entry.id}>
+                    <span className="word">{entry.word}</span>
+                    <span className="meaning">{entry.meaning}</span>
+                  </li>
+                ))}
+              {correctCount === view.order.length ? <li className="all-ok">这一组没有拼错。</li> : null}
             </ul>
-            <div className="mt-4 flex flex-wrap gap-2">
+            <div className="summary-actions">
               <Button
                 variant="solid"
                 disabled={groupIndex >= groups.length - 1}

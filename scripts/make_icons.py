@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Draw the PWA icon: a brass sound-mark on ink."""
+"""Draw the PWA icon: a white sound-mark on ink blue."""
 
 from pathlib import Path
 
@@ -13,10 +13,10 @@ def draw(size: int) -> Image.Image:
     image = Image.new("RGBA", (size, size), (0, 0, 0, 0))
     draw = ImageDraw.Draw(image)
     radius = int(size * 0.22)
-    draw.rounded_rectangle((0, 0, size - 1, size - 1), radius=radius, fill=(16, 20, 27, 255))
+    draw.rounded_rectangle((0, 0, size - 1, size - 1), radius=radius, fill=(43, 80, 214, 255))
     cx = cy = size / 2
-    brass = (228, 180, 92, 255)
-    ink = (16, 20, 27, 255)
+    brass = (255, 255, 255, 255)
+    ink = (43, 80, 214, 255)
     outer = size * 0.30
     draw.ellipse((cx - outer, cy - outer, cx + outer, cy + outer), outline=brass, width=max(4, size // 28))
     bar_w = size * 0.045

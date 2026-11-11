@@ -13,77 +13,64 @@ export function ProgressView() {
   const correct = Object.values(state.sections).reduce((sum, stat) => sum + stat.correct, 0)
   const goal = state.settings.dailyGoal
   const ratio = Math.min(1, goal ? state.daily.count / goal : 0)
-  const radius = 28
-  const circumference = 2 * Math.PI * radius
+  const stats: Array<[string, string]> = [
+    ['听写次数', String(attempts)],
+    ['总正确率', percent(correct, attempts)],
+    ['错词', String(state.mistakes.length)],
+  ]
 
   return (
-    <div className="mx-auto flex w-full max-w-3xl flex-col gap-4 px-4 py-6">
-      <div>
-        <p className="text-xs tracking-[0.2em] text-brass uppercase">Progress</p>
-        <h1 className="font-serif text-4xl">进度</h1>
+    <div className="page">
+      <div className="page-head">
+        <h1>进度</h1>
       </div>
 
-      <section className="grid gap-3 sm:grid-cols-[auto_1fr]">
-        <div className="flex items-center gap-4 rounded-3xl border border-line bg-panel p-4">
-          <svg width="76" height="76" viewBox="0 0 76 76" aria-hidden="true">
-            <circle cx="38" cy="38" r={radius} fill="none" stroke="#313a4a" strokeWidth="6" />
-            <circle
-              cx="38"
-              cy="38"
-              r={radius}
-              fill="none"
-              stroke="#e4b45c"
-              strokeWidth="6"
-              strokeLinecap="round"
-              strokeDasharray={circumference}
-              strokeDashoffset={circumference * (1 - ratio)}
-              transform="rotate(-90 38 38)"
-            />
-          </svg>
+      <section className="panel panel-pad">
+        <div className="today">
           <div>
-            <p className="text-xs text-faint">今日</p>
-            <p className="font-serif text-3xl tabular-nums">
+            <p className="today-label">今日</p>
+            <p className="today-count">
               {state.daily.count}
-              <span className="text-lg text-muted">/{goal}</span>
+              <span> / {goal}</span>
             </p>
-            <label className="mt-1 block text-xs text-muted">
-              目标
-              <input
-                type="number"
-                min={5}
-                max={500}
-                value={goal}
-                onChange={(event) => {
-                  const dailyGoal = Number(event.target.value)
-                  if (dailyGoal >= 5 && dailyGoal <= 500) setSettings({ dailyGoal: Math.round(dailyGoal) })
-                }}
-                className="ml-2 w-16 rounded-lg border border-line bg-canvas px-2 py-1 text-ink"
-              />
-            </label>
           </div>
+          <label className="today-goal">
+            每日目标
+            <input
+              type="number"
+              min={5}
+              max={500}
+              value={goal}
+              onChange={(event) => {
+                const dailyGoal = Number(event.target.value)
+                if (dailyGoal >= 5 && dailyGoal <= 500) setSettings({ dailyGoal: Math.round(dailyGoal) })
+              }}
+              className="field field-num"
+            />
+          </label>
         </div>
-        <div className="grid grid-cols-3 gap-3">
-          {[
-            ['听写次数', String(attempts)],
-            ['总正确率', percent(correct, attempts)],
-            ['错词', String(state.mistakes.length)],
-          ].map(([label, value]) => (
-            <div key={label} className="rounded-3xl border border-line bg-panel p-4">
-              <p className="text-xs text-faint">{label}</p>
-              <p className="mt-2 font-serif text-2xl tabular-nums">{value}</p>
-            </div>
-          ))}
+        <div className="bar">
+          <i style={{ width: `${ratio * 100}%` }} />
         </div>
       </section>
 
-      <section className="overflow-hidden rounded-3xl border border-line">
-        <table className="w-full text-left text-sm">
-          <thead className="bg-panel text-xs text-faint">
+      <dl className="panel stats">
+        {stats.map(([label, value]) => (
+          <div key={label}>
+            <dt>{label}</dt>
+            <dd>{value}</dd>
+          </div>
+        ))}
+      </dl>
+
+      <section className="panel table-wrap">
+        <table className="table">
+          <thead>
             <tr>
-              <th className="px-4 py-3 font-medium">小节</th>
-              <th className="px-3 py-3 font-medium">已练</th>
-              <th className="px-3 py-3 font-medium">正确率</th>
-              <th className="px-3 py-3 font-medium">完成组</th>
+              <th>小节</th>
+              <th>已练</th>
+              <th>正确率</th>
+              <th>完成组</th>
             </tr>
           </thead>
           <tbody>
@@ -91,15 +78,16 @@ export function ProgressView() {
               chapter.sections.map((section) => {
                 const stat = state.sections[section.id]
                 return (
-                  <tr key={section.id} className="border-t border-line">
-                    <td className="px-4 py-2">
-                      <span className="text-brass tabular-nums">{section.id}</span> {section.title}
+                  <tr key={section.id}>
+                    <td>
+                      <span className="id">{section.id}</span>
+                      {section.title}
                     </td>
-                    <td className="px-3 py-2 tabular-nums text-muted">
+                    <td className="dim">
                       {stat?.answered.length ?? 0}/{section.words.length}
                     </td>
-                    <td className="px-3 py-2 tabular-nums">{percent(stat?.correct ?? 0, stat?.attempts ?? 0)}</td>
-                    <td className="px-3 py-2 tabular-nums text-muted">{stat?.passes ?? 0}</td>
+                    <td>{percent(stat?.correct ?? 0, stat?.attempts ?? 0)}</td>
+                    <td className="dim">{stat?.passes ?? 0}</td>
                   </tr>
                 )
               }),
@@ -108,21 +96,21 @@ export function ProgressView() {
         </table>
       </section>
 
-      <section className="rounded-3xl border border-line bg-panel p-4">
-        <h2 className="font-serif text-2xl">最近练习</h2>
+      <section className="panel panel-pad">
+        <h2>最近练习</h2>
         {state.sessions.length === 0 ? (
-          <p className="mt-2 text-sm text-muted">完成一组之后，会在这里留下正确率。</p>
+          <p className="note">完成一组之后，会在这里留下正确率。</p>
         ) : (
-          <ul className="mt-3 divide-y divide-line">
+          <ul className="log">
             {state.sessions.slice(0, 12).map((session) => (
-              <li key={session.id} className="flex items-center justify-between gap-3 py-2 text-sm">
+              <li key={session.id}>
                 <span>
-                  <span className="text-ink">{session.label}</span>
-                  <span className="ml-2 text-xs text-faint">{session.kind === 'review' ? '复习' : '听写'}</span>
+                  {session.label}
+                  <small>{session.kind === 'review' ? '复习' : '听写'}</small>
                 </span>
-                <span className="text-right text-muted tabular-nums">
+                <span className="score">
                   {session.correct}/{session.total}
-                  <span className="ml-2 text-xs">{formatWhen(session.at)}</span>
+                  <small>{formatWhen(session.at)}</small>
                 </span>
               </li>
             ))}
@@ -130,10 +118,10 @@ export function ProgressView() {
         )}
       </section>
 
-      <section className="flex flex-col gap-3 rounded-3xl border border-line bg-panel p-4">
-        <h2 className="font-serif text-2xl">备份</h2>
-        <p className="text-sm text-muted">导出的 JSON 含设置、错词、小节统计和最近记录。导入会覆盖这台浏览器里的进度。</p>
-        <div className="flex flex-wrap gap-2">
+      <section className="panel panel-pad stack">
+        <h2>备份</h2>
+        <p>导出的 JSON 含设置、错词、小节统计和最近记录。导入会覆盖这台浏览器里的进度。</p>
+        <div className="btn-row">
           <Button variant="solid" onClick={download}>
             导出 JSON
           </Button>
@@ -144,7 +132,7 @@ export function ProgressView() {
             ref={fileRef}
             type="file"
             accept="application/json,.json"
-            className="hidden"
+            hidden
             onChange={async (event) => {
               const file = event.target.files?.[0]
               event.target.value = ''
@@ -174,7 +162,7 @@ export function ProgressView() {
             清除进度
           </Button>
         </div>
-        {message ? <p className="text-sm text-brass-2">{message}</p> : null}
+        {message ? <p className="message">{message}</p> : null}
       </section>
     </div>
   )
