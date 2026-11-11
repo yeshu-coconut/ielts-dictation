@@ -8,26 +8,29 @@
 /* --- app styles --- */
 
 /*
-  The look: an answer sheet. Paper, ink, and a red pen for corrections.
+  The look: an answer sheet. Cream paper, a warm orange for what you can
+  act on, green and wine red for right and wrong.
   Every colour is a variable so light and dark follow the system setting.
 */
 :root {
   color-scheme: light;
-  --canvas: #f4f5f7;
-  --panel: #ffffff;
-  --sunk: #eceef2;
-  --line: #dfe3e9;
-  --line-strong: #c3c9d3;
-  --ink: #171b22;
-  --muted: #566070;
-  --faint: #6f7887;
-  --accent: #2b50d6;
+  --canvas: #f6f4ec;
+  --panel: #fdfcf8;
+  --sunk: #ebe8dd;
+  --line: #e2dfd3;
+  --line-strong: #cbc7b9;
+  --ink: #1f1e1b;
+  --muted: #5e5b52;
+  --faint: #6f6b60;
+  /* --accent carries text and filled buttons; --accent-bright is for marks only. */
+  --accent: #a84e2d;
+  --accent-bright: #d97757;
   --accent-ink: #ffffff;
-  --accent-soft: #e6ebfc;
-  --good: #18794e;
-  --good-soft: #e2f3ea;
-  --bad: #c23b2a;
-  --bad-soft: #fbe9e6;
+  --accent-soft: #f6e5da;
+  --good: #2f7a52;
+  --good-soft: #e3f0e4;
+  --bad: #a8233a;
+  --bad-soft: #f8e3e5;
   --radius-control: 8px;
   --radius-panel: 12px;
 }
@@ -35,21 +38,22 @@
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
-    --canvas: #13161b;
-    --panel: #1a1e25;
-    --sunk: #232831;
-    --line: #2b313b;
-    --line-strong: #3f4755;
-    --ink: #e9ecf1;
-    --muted: #a7afbb;
-    --faint: #8790a0;
-    --accent: #93aaff;
-    --accent-ink: #0f1420;
-    --accent-soft: #1f2a4d;
-    --good: #6dcc9c;
-    --good-soft: #173327;
-    --bad: #f18d7e;
-    --bad-soft: #3a1f1b;
+    --canvas: #1f1e1b;
+    --panel: #282724;
+    --sunk: #33312d;
+    --line: #3a3833;
+    --line-strong: #55524a;
+    --ink: #f0ede4;
+    --muted: #b8b3a6;
+    --faint: #958f83;
+    --accent: #e69274;
+    --accent-bright: #d97757;
+    --accent-ink: #1f1e1b;
+    --accent-soft: #432f27;
+    --good: #7ccf9f;
+    --good-soft: #1f3528;
+    --bad: #f08ca0;
+    --bad-soft: #45242c;
   }
 }
 
@@ -255,7 +259,7 @@ button:disabled {
   display: block;
   height: 100%;
   border-radius: 2px;
-  background: var(--accent);
+  background: var(--accent-bright);
 }
 
 .icon-btn {
@@ -792,7 +796,7 @@ button:disabled {
 }
 
 .ticks > .is-now {
-  background: var(--accent);
+  background: var(--accent-bright);
 }
 
 .sheet-meta {
@@ -817,7 +821,7 @@ button:disabled {
   place-items: center;
   width: 64px;
   height: 64px;
-  border: 1.5px solid var(--accent);
+  border: 1.5px solid var(--accent-bright);
   border-radius: 50%;
   background: var(--accent-soft);
   color: var(--accent);
@@ -833,7 +837,7 @@ button:disabled {
 
 @keyframes ring {
   from {
-    box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 35%, transparent);
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent-bright) 40%, transparent);
   }
   to {
     box-shadow: 0 0 0 14px transparent;
@@ -1238,7 +1242,7 @@ button:disabled {
   position: fixed;
   inset: 0;
   z-index: 40;
-  background: rgb(10 14 20 / 0.45);
+  background: rgb(31 30 27 / 0.45);
 }
 
 .dialog {
@@ -1255,7 +1259,7 @@ button:disabled {
   border-radius: 16px;
   background: var(--panel);
   color: var(--ink);
-  box-shadow: 0 24px 60px rgb(10 14 20 / 0.25);
+  box-shadow: 0 24px 60px rgb(31 30 27 / 0.25);
 }
 
 .dialog-head {
